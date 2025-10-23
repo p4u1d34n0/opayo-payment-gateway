@@ -1,14 +1,20 @@
 {
-    "name": "opayo/payment-gateway",
-    "description": "Production-ready Opayo (SagePay) payment gateway integration library for PHP",
+    "name": "p4u1d34n0/opayo-payment-gateway",
+    "description": "Production-ready Opayo (SagePay) payment gateway integration library for PHP with fixed signature verification",
     "type": "library",
-    "keywords": ["opayo", "sagepay", "payment", "gateway", "ecommerce"],
+    "keywords": ["opayo", "sagepay", "payment", "gateway", "ecommerce", "php"],
     "license": "MIT",
+    "homepage": "https://github.com/p4u1d34n0/opayo-payment-gateway",
     "authors": [
         {
-            "name": "Opayo Integration Team"
+            "name": "Paul Dean",
+            "email": "paul.dean@oxfordop.co.uk"
         }
     ],
+    "support": {
+        "issues": "https://github.com/p4u1d34n0/opayo-payment-gateway/issues",
+        "source": "https://github.com/p4u1d34n0/opayo-payment-gateway"
+    },
     "require": {
         "php": ">=8.1",
         "psr/log": "^3.0",
