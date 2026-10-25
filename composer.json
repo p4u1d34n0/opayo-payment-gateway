@@ -1,6 +1,6 @@
 {
     "name": "p4u1d34n0/opayo-payment-gateway",
-    "description": "Production-ready Opayo (SagePay) payment gateway integration library for PHP with fixed signature verification",
+    "description": "Sandbox project, not for production: an experimental Opayo (SagePay) payment gateway client for PHP",
     "type": "library",
     "keywords": ["opayo", "sagepay", "payment", "gateway", "ecommerce", "php"],
     "license": "MIT",
