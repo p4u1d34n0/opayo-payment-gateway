@@ -1,15 +1,19 @@
-# Opayo Payment Gateway - Production-Ready PHP Library
+# Opayo Payment Gateway (sandbox)
+
+> [!WARNING]
+> **Sandbox project, not for production.** This is a personal test space for trying out ideas. It isn't maintained or supported, it hasn't had an independent security review, and it may change or disappear without notice. **Don't use it to take real payments.** For production, use Opayo's own documentation and a maintained, reviewed integration.
+
 
 [![Tests](https://img.shields.io/badge/tests-215%20passing-brightgreen)](phpunit.xml)
 [![PHP Version](https://img.shields.io/badge/php-%3E%3D8.1-blue)](composer.json)
 [![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 [![SOLID](https://img.shields.io/badge/architecture-SOLID-purple)](docs/ARCHITECTURE.md)
 
-A fully production-ready, well-tested PHP library for integrating with the Opayo (formerly SagePay) payment gateway. Features comprehensive error handling, PSR-3 logging, input validation, SOLID architecture, and 100% test coverage.
+An experimental PHP library for integrating with the Opayo (formerly SagePay) payment gateway. Features comprehensive error handling, PSR-3 logging, input validation, SOLID architecture, and 100% test coverage.
 
 ## Features
 
-- **Production-Ready**: Complete error handling, validation, and logging
+- **Error handling**: validation and logging throughout
 - **Modern PHP**: Requires PHP 8.1+, uses latest language features
 - **Well-Tested**: 215 passing tests with 500+ assertions
 - **SOLID Architecture**: Follows all SOLID principles for maintainability
@@ -563,5 +567,5 @@ For Opayo/SagePay API questions, consult the [official Opayo documentation](http
 
 ## Credits
 
-Developed for production use with Opayo payment gateway integration.
+Developed as a sandbox for experimenting with Opayo payment gateway integration.
 # opayo-payment-gateway
